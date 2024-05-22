@@ -9,6 +9,7 @@ import './App.css';
 import ChatApp from './components/chatApp';
 
 
+
 const App: React.FC = () => {
   const [data, setData] = useState<SalaryData[]>([]);
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
@@ -62,7 +63,7 @@ const App: React.FC = () => {
       <LineGraph data={aggregatedArray.map(d => ({ year: d.year, totalJobs: d.totalJobs }))} />
       <MainTable onRowClick={handleRowClick} />
       {selectedYear && <JobTitlesTable data={jobTitlesArray} />}
-  
+      <ChatApp />
     </div>
   );
 };
