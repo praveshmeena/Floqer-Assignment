@@ -1,0 +1,37 @@
+
+.main-table-container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #f0f2f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .main-table-container:hover {
+    transform: scale(1.02);
+    background-color: #e0e4e8;
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: #007acc; 
+    color: white;
+  }
+  
+  .ant-table-tbody > tr > td {
+    background-color: white;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .ant-table-tbody > tr:hover > td {
+    background-color: #e3f2fd;
+    color: #007acc;
+  }
+  
+  .ant-table {
+    border-radius: 8px;
+    overflow: hidden;
+    animation: fadeIn 1s ease-in-out;
+  }

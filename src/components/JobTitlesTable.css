@@ -1,0 +1,39 @@
+
+.job-titles-table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .job-titles-table-container:hover {
+    transform: scale(1.02);
+    background-color: #e0e4e8;
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: #007acc; 
+    color: white;
+    text-align: center;
+  }
+  
+  .ant-table-tbody > tr > td {
+    background-color: white;
+    color: #333;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .ant-table-tbody > tr:hover > td {
+    background-color: #e3f2fd; 
+    color: #007acc;
+  }
+  
+  .ant-table {
+    border-radius: 12px;
+    overflow: hidden;
+    animation: fadeIn 1s ease-in-out;
+  }
