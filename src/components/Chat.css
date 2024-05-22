@@ -28,7 +28,7 @@
   }
   
   .user-message {
-    background-color: #828384;
+    background-color: #b3b7de;
     color: #ffffff;
     max-width: 70%;
     margin-bottom: 10px;
@@ -39,7 +39,7 @@
   }
   
   .assistant-message {
-    background-color: #8d8e8f;
+    background-color: #b3b7de;
     color: #ffffff;
     max-width: 70%;
     margin-left: 10px;
@@ -50,13 +50,7 @@
   }
   
   .input-container {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #333;
-    position: sticky;
-    bottom: 0; */
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,4 +97,5 @@
   button:last-child:hover {
     background-color: #e15692;
   }
+  
   
